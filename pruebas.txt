@@ -1,0 +1,11 @@
+Modelo K-Means con 3 clusters aplicado sobre 12 registros. Se agruparon las rutas segun distancia, velocidad y pasajeros. Se genero el archivo resultados_clusters.csv con la asignacion. 
+ 
+Resultados de la prueba: 
+- Ejecucion correcta del codigo sin errores. 
+- Los clusters generados son consistentes con los parametros (random_state=42). 
+- Interpretacion de clusters: 
+  * Cluster 0: rutas cortas (~12 km), alta velocidad ( km/h), pocos pasajeros (~40) 
+  * Cluster 1: rutas medias (~15 km), velocidad media (~21 km/h), pasajeros medios (~55) 
+  * Cluster 2: rutas largas (~18 km), baja velocidad (~15 km/h), muchos pasajeros (
+ 
+Validacion: Se ejecuto el modelo 3 veces y se obtuvieron los mismos resultados (reproducible). 
