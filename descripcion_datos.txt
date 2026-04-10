@@ -1,0 +1,4 @@
+Dataset generado para transporte masivo (aprendizaje no supervisado). 
+Columnas: hora, distancia_km, velocidad_kmh, pasajeros. 
+Se usa para agrupar rutas similares con K-Means (capítulo 16).
+
